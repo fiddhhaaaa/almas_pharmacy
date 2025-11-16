@@ -1,15 +1,25 @@
 # Backend
 backend/venv/
-backend/__pycache__/
 backend/.env
+backend/__pycache__/
+backend/.pytest_cache/
 
 # Frontend
 frontend/node_modules/
+frontend/dist/
 frontend/.env
 
-# Generic
-*.log
-*.sqlite3
-.env
+# Global Python
+venv/
+env/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# System
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
